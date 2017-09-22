@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.tt.tailoredtech.SplashScreen"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/tv_tt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61.8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/canaryYellow"
+        android:textSize="37.5dp"
+        android:typeface="serif"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82.3dp"
+        android:layout_above="@+id/pageIndicatorView"
+        android:text="@string/welcome"
+        android:textColor="@color/lemon"
+        android:textSize="20.8dp"
+        android:typeface="serif"
+        android:gravity="center"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        attrs:piv_viewPager="@id/viewpager"
+        attrs:piv_radius="5dp"
+        android:layout_above="@+id/l_layout"
+        android:layout_marginBottom="66.7dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/l_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_signup_effects"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/lemon"
+            android:textSize="14.6sp" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/sign_in"
+            android:background="@drawable/btn_signin_effects"
+            android:textAllCaps="true"
+            android:textColor="@color/blackTwo"
+            android:textSize="14.6sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

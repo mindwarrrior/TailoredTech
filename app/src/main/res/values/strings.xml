@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TailoredTech</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="welcome">Welcome</string>
+    <string name="e_mail_hint">E-Mail</string>
+    <string name="pwd_hint">PASSWORD</string>
+    <string name="name_hint">YOUR NAME</string>
+    <string name="dob_hint">DATE OF BIRTH</string>
+    <string name="exp_hint">EXPERIANCE</string>
+    <string name="pos_hint">POSITION</string>
+    <string name="confirm_pwd_hint">CONFIRM PASSWORD</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="fb_connect">Connect with facebook</string>
+    <string name="sign_up_message">Not registered yet? Sign Up</string>
+    <string name="sign_in_message">Already registered? Sign In</string>
+
+    <string-array name="messages">
+        <item>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </item>
+        <item>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</item>
+        <item>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</item>
+        <item>How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave</item>
+        <item>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</item>
+    </string-array>
+    <string-array name="experiance_values">
+        <item>EXPERIANCE</item>
+        <item>Fresher</item>
+        <item>1 Year</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+        <item>6 Years</item>
+        <item>7 Years</item>
+    </string-array>
+    <string-array name="position_values">
+        <item>POSITION</item>
+        <item>Android Developer</item>
+        <item>iOS Developer</item>
+        <item>Web Developer</item>
+        <item>Tester</item>
+    </string-array>
+
+</resources>

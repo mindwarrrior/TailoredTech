@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/pinkishGray</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/lemon</item>
+        <item name="colorControlNormal">@color/pinkishGray</item>
+        <item name="colorControlActivated">@color/lemon</item>
+        <item name="colorControlHighlight">@color/lemon</item>
+        <item name="android:dialogTheme">@style/AppTheme.DialogTheme</item>
+    </style>
+    <style name="Widget.Design.TextInputLayout" parent="AppTheme">
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">14.6sp</item>
+    </style>
+    <style name="AppTheme.DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/lemon</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <item name="android:windowBackground">@color/gray</item>
+        <item name="android:textColorSecondaryInverse">@color/gray</item>
+    </style>
+</resources>
